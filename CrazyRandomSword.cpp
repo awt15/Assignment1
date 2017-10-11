@@ -7,7 +7,6 @@ Anthony Tieu
 
 double CrazyRandomSword::hit(double armor)
 {
-	hitPoints = rand()% 91 + 10;
 	int halfarmor = armor/2 + 1;
 	int reduce = rand()% halfarmor;
 
