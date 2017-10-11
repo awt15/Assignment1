@@ -1,0 +1,43 @@
+A)
+Username for 'https://github.com': awt15
+Password for 'https://awt15@github.com':
+Counting objects: 10, done.
+Delta compression using up to 56 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 874 bytes | 0 bytes/s, done.
+Total 7 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/awt15/Assignment1.git
+   fbdbe93..b4e8161  master -> master
+
+B)
+There are 9 commits in the repo (by anyone).
+Command: git rev-list --all --count
+
+C)
+Last modified: Wed Sep 27 16:31:42 2017 -0500
+Command: git log --follow .gitignore
+
+D)
+2 Merges:
+1- commit cb30d72a3d94c108f393c163a35c1cc9bf18ffca
+2- commit 36a8e55e4bbdd171ab57d979e1a802d740f2db9b
+
+E)
+1- Branches are used to develop features isolated from each other without affecting the master branch.
+2- The branch is not avaliable to others unless you push to the master branch.
+
+F)
+Log- you can study the history of the repo using this. Able to add many parameters to get the log to show what you want.
+Status- shows the current progress of the repo, showing what's changed and are ready for commits and what files are edited.
+
+G)
+git log --follow Weapon.h
+
+H)
+git log --grep="file" 
+
+I)
+1- Inheritance is where it enables new objects to take on the properties of exisiting objects.
+2- Polymorphism is a programming language's ability to process objects differently depending on their data type or class.
+3- Encapsulation is where it binds together the data and functions that manipulate the data and hides them for interference or misuse.
