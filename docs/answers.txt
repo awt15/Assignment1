@@ -41,3 +41,9 @@ I)
 1- Inheritance is where it enables new objects to take on the properties of exisiting objects.
 2- Polymorphism is a programming language's ability to process objects differently depending on their data type or class.
 3- Encapsulation is where it binds together the data and functions that manipulate the data and hides them for interference or misuse.
+
+
+QUESTION - 7
+This program is both polymorphism and encapsulation. It's polymorphism because the Weapon class has it's own hit function but is getting overwritten by
+the sub-classes we are making like CommonSword or CommonSpear. It's also encapsulation because in the Weapon class, there are protected information to stop
+outside functions to manipulate data. Unless they are a child.
